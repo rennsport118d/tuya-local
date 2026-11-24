@@ -25,6 +25,7 @@ entities:
     dps:
       - id: 6
         type: base64
+        force: true
         name: sensor
         unit: V
         class: measurement
@@ -37,6 +38,7 @@ entities:
     dps:
       - id: 6
         type: base64
+        force: true
         name: sensor
         unit: A
         class: measurement
@@ -50,6 +52,7 @@ entities:
                 scale: -1000
       - id: 6
         type: base64
+        force: true
         name: direction
         optional: true
         mask: "000000000000000000000000000000000001"
@@ -58,6 +61,7 @@ entities:
     dps:
       - id: 6
         type: base64
+        force: true
         name: sensor
         unit: kW
         class: measurement
@@ -71,6 +75,7 @@ entities:
                 scale: -1000
       - id: 6
         type: base64
+        force: true
         name: direction
         optional: true
         mask: "000000000000000000000000000000000002"
@@ -80,6 +85,7 @@ entities:
     dps:
       - id: 6
         type: base64
+        force: true
         name: sensor
         unit: kvar
         class: measurement
@@ -93,6 +99,7 @@ entities:
                 scale: -1000
       - id: 6
         type: base64
+        force: true
         name: direction
         optional: true
         mask: "000000000000000000000000000000000004"
@@ -102,6 +109,7 @@ entities:
     dps:
       - id: 6
         type: base64
+        force: true
         name: sensor
         unit: kVA
         class: measurement
@@ -115,6 +123,7 @@ entities:
     dps:
       - id: 6
         type: base64
+        force: true
         name: sensor
         class: measurement
         optional: true
@@ -127,6 +136,7 @@ entities:
                 scale: -100
       - id: 6
         type: base64
+        force: true
         name: direction
         optional: true
         mask: "000000000000000000000000000000000008"
